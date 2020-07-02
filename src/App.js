@@ -4,6 +4,7 @@ import './App.css'
 import ToDoDragDropDemo from './components/ToDoDragDropDemo'
 import ToDoDragDropDemoMUI from './components/ToDoDragDropDemoMUI'
 import ToDoDragDropDemoMuiHooks from './components/ToDoDragDropDemoMuiHooks'
+import ToDoDragDropDemoMuiHooksCurrying from './components/ToDoDragDropDemoMuiHooksCurrying'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <ToDoDragDropDemo />
         <ToDoDragDropDemoMUI />
         <ToDoDragDropDemoMuiHooks />
+        <ToDoDragDropDemoMuiHooksCurrying />
       </header>
     </div>
   )
