@@ -77,7 +77,6 @@ const ToDoDragDropDemoMuiHooksCurrying = props => {
           {tasks.map((task, index) => (
             <TableRow
               key={task.id}
-              // onDragStart={event => onDragStart(event, index)}
               onDragStart={onDragStart(index)}
               onDragEnter={onDragEnter(index)}
               onDragOver={onDragOver(index)}
